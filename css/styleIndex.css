@@ -1,0 +1,204 @@
+body {
+  background: rgb(234, 224, 213);
+  background: linear-gradient(
+    0deg,
+    rgba(234, 224, 213, 1) 0%,
+    rgba(234, 224, 213, 1) 80%,
+    rgba(247, 240, 240, 1) 100%
+  );
+  margin: 0px;
+}
+/* css container body */
+.container {
+  margin: 0px 60px 0px 60px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 56px;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+span {
+  color: #5f3100;
+  font-weight: 560;
+}
+
+/* css home gambaran umum maudy  */
+.artist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.artist-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* css list home */
+.list {
+  font-size: 1.5em;
+}
+
+/* css navbar */
+li a {
+  float: left;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 8px;
+  height: 100%;
+  color: rgb(75, 61, 46, 0.8);
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+li a:hover {
+  color: #4b3d2e;
+}
+
+.globalnav {
+  overflow: hidden;
+  display: block;
+  background: rgba(247, 240, 240, 0.8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(20px);
+}
+
+.globalnav-content {
+  margin-left: 208px;
+  margin-right: 208px;
+  padding-inline-end: 22px;
+  padding-inline-start: 22px;
+}
+
+.globalnav-list {
+  display: block;
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+}
+
+/* css biografi, perjalanan hidup */
+.life {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 5px;
+  margin-bottom: 64px;
+}
+
+.life > div {
+  text-align: justify;
+  margin: 12px;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.itemall {
+  display: grid;
+  flex-direction: column;
+  grid-row: span 3 / span 3;
+  /* justify-self: center; */
+}
+
+/* css karya */
+.karya {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 150px;
+}
+
+.img-karya {
+  width: 300px;
+  column-gap: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+figure {
+  margin: 0px;
+}
+
+figcaption {
+  background-color: hsla(31, 24%, 24%, 0.5);
+  color: black;
+  font-style: italic;
+  text-align: center;
+  /* font-weight: bold; */
+  width: 300px;
+  margin: 10px;
+  padding: 5px;
+}
+
+/* css footer */
+footer {
+  background-color: rgb(76, 62, 47, 0.5);
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 50px;
+  width: 1440px;
+  height: auto;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-icon {
+  color: rgb(0, 0, 0);
+  line-height: 24px;
+  margin: 12px;
+}
+
+/* css font */
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
